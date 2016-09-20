@@ -1,0 +1,9 @@
+---
+applications:
+- name: redbooklibrary
+  memory: 256M
+  path: output/RedbookLibrary.war
+  host: redbooklibrary
+  buildpack: java_buildpack 
+  services:
+  - redbooklibrary-book-database
